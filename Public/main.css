@@ -1,0 +1,33 @@
+/* .main-container .slick-prev {
+  left: 8px !important;
+  z-index: 9999;
+  font-size: 28px !important;
+}
+.main-container .slick-next {
+  right: 15px !important;
+  z-index: 1;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 28px !important;
+  color: white !important;
+  opacity: 100% !important;
+  border-radius: 100%;
+}
+.slick-slider .slick-slide {
+  padding: 0 8px;
+}
+.slick-slider{
+  padding-bottom: 5px !important;
+}
+.main-containerr {
+  height: 520px;
+}
+.slick-list[data-v-3d1a4f76] {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding-bottom: 5px !important;
+  transform: translateZ(0);
+} */

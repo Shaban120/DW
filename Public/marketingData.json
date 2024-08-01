@@ -1,0 +1,28 @@
+{
+   "marketingMaterials" : [
+      {
+        "id": 1,
+        "name":"Residential Brochure",
+        "file": "Residential-DW.pdf",
+        "img": "Residentials.png"
+      },
+      {
+        "id": 2,
+        "name":"Collection Brochure",
+        "file": "Collection-DW.pdf",
+        "img": "Collections.png"
+      },
+      {
+        "id": 3,
+        "name":"Hotel Brochure",
+        "file": "Hotel-DW.pdf",
+        "img": "Hotels.png"
+      },
+      {
+        "id": 4,
+        "name":"Commercial Brochure",
+        "file": "Commercial-DW.pdf",
+        "img": "Commercial.png"
+      }
+    ]
+}
