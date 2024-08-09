@@ -14,8 +14,8 @@
         <nuxt-link to="/solution">
           <v-btn class="text-13 black--text" text>Solutions</v-btn>
         </nuxt-link>
-        <nuxt-link to="/compare">
-          <v-btn class="text-13 black--text" text>Resources</v-btn>
+        <nuxt-link to="/before">
+          <v-btn class="text-13 black--text" text>Before / After</v-btn>
         </nuxt-link>
         <nuxt-link to="/collection/wood">
           <v-btn class="text-13 black--text" text>Vinyl collections</v-btn>
@@ -30,7 +30,7 @@
           </v-btn>
         </a>
 <a href="https://wa.me/447913225766" target="_blank">
-  <v-btn class="whatsapp-btn" outlined text>
+  <v-btn class="whatsapp-btn text-13" outlined text>
     WhatsApp Chat
     <v-icon class="ml-3">mdi-whatsapp</v-icon>
   </v-btn>
@@ -87,7 +87,7 @@
           </nuxt-link>
         </v-list-item>
         <v-list-item link>
-          <nuxt-link to="/compare">
+          <nuxt-link to="/resources">
             <v-btn text>Resources</v-btn>
           </nuxt-link>
         </v-list-item>

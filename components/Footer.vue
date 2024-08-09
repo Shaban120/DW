@@ -1,11 +1,13 @@
 <template>
     <div>
         <v-container class="my-8">
-            <v-img :src="require('../assets/fotter.png')">
-            </v-img>
+            <img width="100%" src="../assets/fotter.png" />
+            <!-- <div :style="{ backgroundImage: `url(${require('../assets/fotter.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }" >
+            </div> -->
         </v-container>
-        <v-img :src="require('../assets/Fotter_img.png')">
-            <v-container class="my-md-16">
+        <div class="py-md-16" :style="{ backgroundImage: `url(${require('../assets/Fotter_img.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }">
+
+            <v-container class="">
                 <v-row class="mt-5">
                     <v-col md="4" cols="12">
                         <nuxt-link to="/">
@@ -20,6 +22,10 @@
                         <div class="border mt-8 mb-4"></div>
                         <nuxt-link to="/">
                             <v-list color="transparent" class="white--text pa-0 text-14 poppins-regular">Home</v-list>
+                        </nuxt-link>
+                        <nuxt-link to="/resources">
+                            <v-list color="transparent"
+                                class="white--text pa-0 text-14 poppins-regular">Resources</v-list>
                         </nuxt-link>
                         <nuxt-link to="/about">
                             <v-list color="transparent" class="white--text pa-0 text-14 poppins-regular">About
@@ -92,7 +98,7 @@
 
                 </v-row>
             </v-container>
-        </v-img>
+        </div>
         <!-- Chat widget integration -->
         <chat-widget
           location-id="eYfduDnP9mHbOhbqiOFN"

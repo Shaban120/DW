@@ -7,13 +7,13 @@
         </div>
       </v-tab-item>
 
-      <v-tab-item>
+      <!-- <v-tab-item>
         <div class="text-center section-1">
           <h1 class="mb-4 belgin-bold text-104">BEFORE / AFTER</h1>
           <p class="mt-n6 PPRadioGrotesk-regular">Discover the various projects completed with Cover Styl design
             adhesive coverings</p>
         </div>
-      </v-tab-item>
+      </v-tab-item> -->
       <v-tab-item>
         <div class="text-center section-1">
           <h1 class="mb-4 belgin-bold text-104">UPLOAD IMAGES</h1>
@@ -28,7 +28,7 @@
         <div>
           <v-tabs class="d-flex justify-center" v-model="tab">
             <v-tab class="mx-2">Digital Brochures</v-tab>
-            <v-tab class="mx-2">Before / After</v-tab>
+            <!-- <v-tab class="mx-2">Before / After</v-tab> -->
             <v-tab class="mx-2">Upload Images</v-tab>
           </v-tabs>
           <v-tabs-items v-model="tab">
@@ -63,7 +63,7 @@
               </v-card>
             </v-tab-item>
 
-            <v-tab-item>
+            <!-- <v-tab-item>
               <v-card flat>
                 <v-card-text>
                   <v-row>
@@ -91,11 +91,14 @@
                         </a>
                       </div>
                     </v-col>
-                    <v-pagination v-model="currentPage" :length="numPages" @input="changePage"
-                      color="primary"></v-pagination>
+                    <div class="d-flex justify-center">
+                      <v-pagination v-model="currentPage" :length="numPages" @input="changePage"
+                        color="primary"></v-pagination>
+                    </div>
+
                   </v-row> </v-card-text>
               </v-card>
-            </v-tab-item>
+            </v-tab-item> -->
             <v-tab-item>
               <v-form class="py-8 px-8 Form rounded mt-5"
                 style="background-color: #eee8df;border-radius: 20px !important;">
@@ -220,7 +223,7 @@ export default {
       imagePositions: Array(10).fill(180), // Initialize positions for 10 images
       perPage: 18, // Show 18 items per page initially
       currentPage: 1,
-      options: ['Residential Customer','Commercial Customer'
+      options: ['Residential Customer', 'Commercial Customer'
       ],
       showDialog: false, // Add this property to control error dialog visibility
       showThanksDialog: false, // Add this property to control thank you dialog visibility

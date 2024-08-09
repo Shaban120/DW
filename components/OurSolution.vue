@@ -23,7 +23,7 @@
                         
                     </v-img>
                     <div style="position: relative;" class="black px-10 py-3">
-                        <nuxt-link to="/compare">
+                        <nuxt-link to="/resources">
                         <h4 class="white--text poppins-semibold text-28">
                             Commercial Solutions</h4>
                         <p class="white--text poppins-medium text-16">Explore our commercial solutions</p>
@@ -40,7 +40,7 @@
                         <img class="sol_icon" width="100" src="../assets/solution/solutions Icons (2).png" />
                     </v-img>
                     <div style="position: relative;" class="black px-10 py-3">
-                        <nuxt-link to="/compare">
+                        <nuxt-link to="/resources">
                         <h4 class="white--text poppins-semibold text-28">Residential Solutions</h4>
                         <p class="white--text poppins-medium text-16">Explore our residential solutions</p>
                         <div  class="white_circle">

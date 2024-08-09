@@ -1,16 +1,14 @@
 <template>
     <div>
-        <v-img>
-            <v-img cover :src="require('../assets/services/Banner.png')">
-                <v-container class="py-16">
+            <div :style="{ backgroundImage: `url(${require('../assets/services/Banner.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }" >
+                <v-container class="py-md-16" >
                     <div class="text-center py-md-16">
                             <p class="text-18 white--text poppins-regular">OUR SERVICES</p>
                             <h1 class="belgin-bold text-42 white--text">We specialise in bespoke vinyl wrapping services to meet our client's diverse needs and preferences. 
                             </h1>
                     </div>
                 </v-container>
-            </v-img>
-        </v-img>
+            </div>
         <OurPromise />
         <OurServices />
         <Whatwedo />

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-img :src="require('../assets/Section2_back.png')">
+        <div class="py-md-16" :style="{ backgroundImage: `url(${require('../assets/Section2_back.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }" >
             <v-container class="my-md-16 my-8">
                 <v-row>
                     <v-col lg="5">
@@ -131,7 +131,7 @@
                     </v-card>
                 </v-dialog>
             </v-container>
-        </v-img>
+        </div>
     </div>
 </template>
 

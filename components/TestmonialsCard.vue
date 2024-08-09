@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-img cover :src="require('../assets/Testimonails_back.png')">
+        <v-img :style="{ backgroundImage: `url(${require('../assets/Testimonails_back.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }"  >
             <v-container class="my-md-16 my-8">
                 <p class="white--text text-18 poppins-regular">TESTIMONAILS</p>
                 <v-row>

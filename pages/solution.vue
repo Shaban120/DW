@@ -1,13 +1,16 @@
 <template>
     <div>
-        <v-img :src="require('../assets/solution/banner.png')">
-            <v-container class="py-16 text-center">
-                <p class="poppins-regular text-16 white--text">OUR SOLUTIONS</p>
+        <div :style="{ backgroundImage: `url(${require('../assets/solution/banner.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }" >
+            <v-container class="py-md-16">
+                <div class="py-md-16 text-center" >
+                    <p class="poppins-regular text-16 white--text">OUR SOLUTIONS</p>
                 <h1 class="text-42 belgin-bold  white--text">
                     Transform Your Space with Our innovative solutions
                 </h1>
+                </div>
+                
             </v-container>
-        </v-img>
+        </div>
         <OurSolution />
         <QualitySolutionCard />
         <Whatwedo />

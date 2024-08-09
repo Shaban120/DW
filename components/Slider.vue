@@ -1,6 +1,6 @@
 <template>
     <div class="white">
-        <v-img :src="require('../assets/slide_1.png')">
+        <v-img :style="{ backgroundImage: `url(${require('../assets/slide_1.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }" >
             <v-container class="my-md-16 my-8">
                 <VueSlickCarousel v-bind="settings" class="h-100 slider px-sm-5">
                     <img width="100%" height="400" src="../assets/slider_1.png" />
