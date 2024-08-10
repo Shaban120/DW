@@ -1,11 +1,11 @@
 <template>
   <div>
-    <v-tabs-items v-model="tab">
-      <v-tab-item>
+    <!-- <v-tabs-items v-model="tab"> -->
+      <!-- <v-tab-item> -->
         <div class="text-center section-1">
           <h1 class="mb-4 belgin-bold text-104">Digital Brochures</h1>
         </div>
-      </v-tab-item>
+      <!-- </v-tab-item> -->
 
       <!-- <v-tab-item>
         <div class="text-center section-1">
@@ -14,25 +14,25 @@
             adhesive coverings</p>
         </div>
       </v-tab-item> -->
-      <v-tab-item>
+      <!-- <v-tab-item>
         <div class="text-center section-1">
           <h1 class="mb-4 belgin-bold text-104">UPLOAD IMAGES</h1>
         </div>
 
 
-      </v-tab-item>
-    </v-tabs-items>
+      </v-tab-item> -->
+    <!-- </v-tabs-items> -->
 
     <div class="section-2">
       <v-container>
         <div>
-          <v-tabs class="d-flex justify-center" v-model="tab">
+          <!-- <v-tabs class="d-flex justify-center" v-model="tab">
             <v-tab class="mx-2">Digital Brochures</v-tab>
-            <!-- <v-tab class="mx-2">Before / After</v-tab> -->
+            <v-tab class="mx-2">Before / After</v-tab>
             <v-tab class="mx-2">Upload Images</v-tab>
-          </v-tabs>
-          <v-tabs-items v-model="tab">
-            <v-tab-item>
+          </v-tabs> -->
+          <!-- <v-tabs-items v-model="tab">
+            <v-tab-item> -->
               <v-card flat>
                 <v-card-text>
                   <v-row>
@@ -61,7 +61,7 @@
                   </v-row>
                 </v-card-text>
               </v-card>
-            </v-tab-item>
+            <!-- </v-tab-item> -->
 
             <!-- <v-tab-item>
               <v-card flat>
@@ -99,7 +99,7 @@
                   </v-row> </v-card-text>
               </v-card>
             </v-tab-item> -->
-            <v-tab-item>
+            <!-- <v-tab-item>
               <v-form class="py-8 px-8 Form rounded mt-5"
                 style="background-color: #eee8df;border-radius: 20px !important;">
                 <div>
@@ -186,7 +186,7 @@
                 </v-card>
               </v-dialog>
             </v-tab-item>
-          </v-tabs-items>
+          </v-tabs-items> -->
         </div>
 
       </v-container>
