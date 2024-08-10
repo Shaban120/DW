@@ -1,20 +1,17 @@
 <template>
     <div>
-        <v-container class="my-8">
-            <img width="100%" src="../assets/fotter.png" />
-            <!-- <div :style="{ backgroundImage: `url(${require('../assets/fotter.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }" >
-            </div> -->
-        </v-container>
-        <div class="py-md-16" :style="{ backgroundImage: `url(${require('../assets/Fotter_img.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }">
+       
+        <div class="py-md-16"
+            :style="{ backgroundImage: `url(${require('../assets/Fotter_img.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }">
 
             <v-container class="">
                 <v-row class="mt-5">
                     <v-col md="4" cols="12">
                         <nuxt-link to="/">
-                            <img class="mb-md-2" width="170"
-                                :src="require('../assets/DW Logo White.svg')" />
+                            <img class="mb-md-2" width="170" :src="require('../assets/DW Logo White.svg')" />
                         </nuxt-link>
-                        <p class="white--text text-left text-14 poppins-regular">Discover how our innovative solutions can transform your residential and commercial spaces today!
+                        <p class="white--text text-left text-14 poppins-regular">Discover how our innovative solutions
+                            can transform your residential and commercial spaces today!
                         </p>
                     </v-col>
                     <v-col md="2" cols="6">
@@ -100,15 +97,11 @@
             </v-container>
         </div>
         <!-- Chat widget integration -->
-        <chat-widget
-          location-id="eYfduDnP9mHbOhbqiOFN"
-          agency-name="Distinction Wrapping"
-          agency-website="https://www.distinctionwrapping.com/"
-          show-consent-checkbox="true">
+        <chat-widget location-id="eYfduDnP9mHbOhbqiOFN" agency-name="Distinction Wrapping"
+            agency-website="https://www.distinctionwrapping.com/" show-consent-checkbox="true">
         </chat-widget>
-        <script
-          src="https://widgets.leadconnectorhq.com/loader.js"
-          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js">
+        <script src="https://widgets.leadconnectorhq.com/loader.js"
+            data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js">
         </script>
     </div>
 </template>
