@@ -3,8 +3,18 @@
         <v-container class="my-md-16 my-8">
             <v-row>
                 <v-col cols="12" lg="8">
-                    <img width="100%" src="../assets/About_img.png" />
-                </v-col>
+                    <div class="youtube-embed-wrapper">
+      <div class="youtube-embed">
+        <iframe
+          width="100%"
+          height="480px"
+          src="https://www.youtube.com/embed/7F2oLp1gUsQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>                </v-col>
                 <v-col lg="4">
                     <p class="text-16 black--text poppins-regular">ABOUT US</p>
                     <h1 class="text-42 belgin-bold">Innovative Wrapping Solutions</h1>
@@ -139,5 +149,18 @@ export default {
     max-width: 70px;
     /* Adjust the size of the image as needed */
     max-height: 70px;
+}
+.youtube-embed-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.youtube-embed {
+  width: 100%;
+  height: 480px;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 </style>
