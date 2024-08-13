@@ -13,7 +13,7 @@
         <OurServices />
         <Whatwedo />
         <WorkFlow />
-        <TestmonialsCard />
+        <Testmonials1 />
     </div>
 </template>
 

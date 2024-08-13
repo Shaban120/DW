@@ -54,7 +54,7 @@
             </v-row>
             <VueSlickCarousel v-bind="settings" class="h-100 portfolio px-sm-5">
                 <div v-for="(service, index) in services" :key="index">
-      <v-img  width="100%" height="400" :src="require(`../assets/solution/${service.image}`)">
+      <v-img loading="eager" width="100%" height="400" :src="require(`../assets/solution/${service.image}`)">
         <div class="layer px-5 py-3">
           <p class="black--text mb-0 text-16">{{ service.name }}</p>
           <div class="black_circle  black">

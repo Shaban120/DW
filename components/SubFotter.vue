@@ -1,28 +1,29 @@
 <template>
     <div style="background-color: rgba(0, 0, 0, 0.5) !important;">
         <v-container>
-            <div class="d-flex align-center" style="gap: 20px;width: 100%;">
-                <div style="width: 25%;">
+            <v-row class="align-center justify-center">
+                <v-col cols="12" md="3" class="d-flex justify-center" >
                     <a href="https://axis.lawyer/">
-                    <img width="100%" src="../assets/Axis-Solicitors-Logo.png" />
+                    <img width="200px" height="75px"  src="../assets/Axis-Solicitors-Logo.png" />
                 </a>
-                </div>
-                <div style="width: 25%;">
+                </v-col>
+                <v-col cols="12" md="3" class="d-flex justify-center">
                     <a href="https://legalpathway.co.uk/">
-                    <img width="100%" src="../assets/legal-logo.svg" />
+                    <img width="200px"  src="../assets/legal-logo.svg" />
                 </a>
-                </div>
-                <div style="width: 25%;">
+                </v-col>
+                <v-col cols="12" md="3" class="d-flex justify-center" >
                     <a href="https://thetaxcom.co.uk/">
-                    <img width="100%" src="../assets/taxom-logo.png" />
+                    <img width="200px"  src="../assets/taxom-logo.png" />
                 </a>
-                </div>
-                <div style="width: 25%;">
+                </v-col>
+                <v-col cols="12" md="3" class="d-flex justify-center">
                     <a href="https://salamimmigration.co.uk/">
-                    <img width="100%" src="../assets/salam-logo.png" />
+                    <img width="200px"  src="../assets/salam-logo.png" />
                     </a>
-                </div>
-            </div>
+                </v-col>
+            </v-row>
+           
         </v-container>
     </div>
 </template>

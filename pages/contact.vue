@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-img height="280" :src="require('../assets/Section2_back.png')">
+        <v-img loading="eager" height="280" :src="require('../assets/Section2_back.png')">
             <v-container class="py-16">
                 <h1 class="text-42 belgin-bold white--text text-center">Contact Us</h1>
             </v-container>
@@ -28,7 +28,7 @@
                     </p>
                 </v-col>
                 <v-col md="6" cols="12">
-                    <v-img height="500" :src="require('../assets/Contactus.avif')">
+                    <v-img loading="eager" height="500" :src="require('../assets/Contactus.avif')">
 
                     </v-img>
                 </v-col>

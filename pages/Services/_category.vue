@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-img class="py-16" height="280"  :src="require(`../../assets/services/${getCategory.bannerImg}`)">
+    <v-img loading="eager" class="py-16" height="280"  :src="require(`../../assets/services/${getCategory.bannerImg}`)">
       <h1 class="belgin-bold text-center text-42 white--text">{{ getCategory.category }}</h1>
     </v-img>
     <v-container class="mt-16">

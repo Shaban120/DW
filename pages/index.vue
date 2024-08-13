@@ -1,15 +1,9 @@
 <template>
-  <div class="">
-    <v-carousel>
-      <v-carousel-item v-for="(item, i) in 1" :key="i" :src="require('../assets/Section1_background.png')"
-        reverse-transition="fade-transition" transition="fade-transition">
-        <v-container class="my-md-16 my-8 py-md-10 pb-sm-16">
+  <div class="">    
+    <div :style="{ backgroundImage: `url(${require('../assets/Section1_background.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content',marginTop:'99px' }">
+      <v-container class="py-8 py-md-16">
           <v-row>
             <v-col md="7" cols="12">
-              <!-- <p class="text-16 mb-0 white--text poppins-medium">FOCUS ON PEOPLE</p>
-              <h1 style="line-height: 1.2;" class="text-42 white--text belgin-bold font-weight-bold">
-                Revamp Your Space With Our innovative Interior Wrapping Solutions Today!
-              </h1> -->
               <p class="text-16 mb-0 white--text poppins-medium">Free Samples Available               </p>
               <h2 style="line-height: 1.2;" class="text-42 white--text belgin-bold font-weight-bold">
                 Share pictures of your space, and we'll provide digital visualisations to ensure your satisfaction
@@ -36,11 +30,8 @@
             </v-col>
           </v-row>
         </v-container>
-      </v-carousel-item>
-    </v-carousel>
-    <v-img>
-
-    </v-img>
+    </div>
+    
     <About />
     <Whatwedo />
     <Promo />
@@ -57,6 +48,7 @@ import Promo from '../components/Promo';
 import Slider from '../components/Slider';
 import TestmonialsCard from '../components/TestmonialsCard';
 import Whatwedo from '../components/Whatwedo';
+import OurProcess from '../components/OurProcess';
 
 export default {
   head() {

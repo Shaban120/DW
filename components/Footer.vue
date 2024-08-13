@@ -3,7 +3,6 @@
        
         <div class="py-md-16"
             :style="{ backgroundImage: `url(${require('../assets/Fotter_img.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }">
-
             <v-container class="">
                 <v-row class="mt-5">
                     <v-col md="4" cols="12">

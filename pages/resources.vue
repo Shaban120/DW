@@ -39,7 +39,7 @@
                     <!-- <img src="../assets/Digital Brochures/Collections.png" /> -->
                     <v-col lg="4" cols="12" v-for="(item, index) in marketingData" :key="item.id">
                       <div class="image-container mt-md-16">
-                        <v-img style="border-radius: 0 32px 0 0;" height="300"
+                        <v-img loading="eager" style="border-radius: 0 32px 0 0;" height="300"
                           :src="require(`../assets/Marketing-Materials/${item.img}`)"></v-img>
 
                         <!-- <v-img :src="require(item.img)"></v-img> -->

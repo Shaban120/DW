@@ -1,6 +1,6 @@
 <template>
     <div class="white">
-        <v-img :style="{ backgroundImage: `url(${require('../assets/slide_1.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }" >
+        <v-img loading="eager" :style="{ backgroundImage: `url(${require('../assets/slide_1.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }" >
             <v-container class="my-md-16 my-8">
                 <VueSlickCarousel v-bind="settings" class="h-100 slider px-sm-5">
                     <img width="100%" height="400" src="../assets/slider_1.png" />
@@ -10,6 +10,7 @@
                 </VueSlickCarousel>
             </v-container>
         </v-img>
+    <OurProcess class="my-md-16 my-8" />
         <v-container class="my-md-16 my-8">
             <v-row>
                 <v-col md="5" cols="12">
@@ -43,10 +44,11 @@
 import VueSlickCarousel from "vue-slick-carousel";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+import OurProcess from '../components/OurProcess';
 
 export default {
     components: {
-        VueSlickCarousel // Define VueSlickCarousel as a component
+        VueSlickCarousel,OurProcess // Define VueSlickCarousel as a component
     },
     data() {
         return {

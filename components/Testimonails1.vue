@@ -11,7 +11,7 @@
                     </v-col>
                     <v-col md="2" sm="12">
                         <div style="border-right: 2px solid black;">
-                            <h3 class="black--text">1,372+</h3>
+                            <h3 class="black--text">372+</h3>
                             <p class="black--text">Happy Coustomers</p>
                         </div>
 
@@ -27,7 +27,7 @@
                             <v-row>
                                 <v-col sm="4" md="4">
                                     <div style="position: relative;">
-                                        <v-img :src="require('../assets/men3.jpeg')" height="100" width="100"
+                                        <v-img loading="eager" :src="require('../assets/men3.jpeg')" height="100" width="100"
                                             class="rounded-image" alt="Men Image"></v-img>
                                         <img class="comma_img" style="position: absolute;
   bottom: 0%;
@@ -64,7 +64,7 @@
                             <v-row>
                                 <v-col sm="4" md="4">
                                     <div style="position: relative;">
-                                        <v-img :src="require('../assets/men2.jpeg')" height="100" width="100"
+                                        <v-img loading="eager" :src="require('../assets/men2.jpeg')" height="100" width="100"
                                             class="rounded-image" alt="Men Image"></v-img>
                                         <img class="comma_img" style="position: absolute;
   bottom: 0%;
@@ -98,7 +98,7 @@
                             <v-row>
                                 <v-col sm="4" md="4">
                                     <div style="position: relative;">
-                                        <v-img :src="require('../assets/men1.jpeg')" height="100" width="100"
+                                        <v-img loading="eager" :src="require('../assets/men1.jpeg')" height="100" width="100"
                                             class="rounded-image" alt="Men Image"></v-img>
                                         <img class="comma_img" style="position: absolute;
   bottom: 0%;

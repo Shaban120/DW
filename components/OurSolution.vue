@@ -18,9 +18,8 @@
             <v-row>
                 <v-col md="6" cols="12">
                     <v-card>
-                    <v-img :src="require('../assets/solution/solutions imgs (2).png')">
-                        <img class="sol_icon" width="100" src="../assets/solution/solutions Icons (1).png" />
-                        
+                    <v-img loading="eager" :src="require('../assets/solution/solutions imgs (2).png')">
+                        <img class="sol_icon" width="100" src="../assets/solution/solutions Icons (1).png" />                        
                     </v-img>
                     <div style="position: relative;" class="black px-10 py-3">
                         <nuxt-link to="/resources">
@@ -36,7 +35,7 @@
                 </v-col>
                 <v-col md="6" cols="12">
                     <v-card>
-                    <v-img :src="require('../assets/solution/solutions imgs (1).png')">
+                    <v-img loading="eager" :src="require('../assets/solution/solutions imgs (1).png')">
                         <img class="sol_icon" width="100" src="../assets/solution/solutions Icons (2).png" />
                     </v-img>
                     <div style="position: relative;" class="black px-10 py-3">

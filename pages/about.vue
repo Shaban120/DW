@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-img height="280" :src="require('../assets/ABout Us Banner.png')">
+        <v-img loading="eager" height="280" :src="require('../assets/ABout Us Banner.png')">
             <v-container class="py-16">
             <h1 class="text-42 belgin-bold white--text text-center">Distinction Wrapping vinyl Wrap Expertise</h1>
         </v-container>
@@ -15,7 +15,7 @@
 </p>
                 </v-col>
                 <v-col md="6" cols="12">
-                    <v-img height="500" :src="require('../assets/AboutImg.Avif')">
+                    <v-img loading="eager" height="500" :src="require('../assets/AboutImg.Avif')">
 
                     </v-img>
                 </v-col>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- DESKTOP NAVBAR -->
-    <v-app-bar color="#ffffff" dense height="auto" class="desktop-nav">
+    <v-app-bar fixed color="#ffffff" dense height="auto" class="desktop-nav">
       <v-container class="d-flex align-center">
       <v-toolbar-title>
         <nuxt-link to="/">
@@ -23,9 +23,9 @@
         
       </div>
       <div>
-        <a href="tel:+44 7913 225766">
+        <a href="tel:+44 7723 011006">
           <v-btn style="background-color: white;" outlined class="text-13 black--text" text>
-            +44 7913 225766
+            +44 7723 011006
             <v-icon class="ml-3">mdi-phone</v-icon>
           </v-btn>
         </a>

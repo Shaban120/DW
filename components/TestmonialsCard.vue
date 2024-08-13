@@ -1,7 +1,7 @@
 <template>
     <div>
-        <v-img :style="{ backgroundImage: `url(${require('../assets/Testimonails_back.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }"  >
-            <v-container class="my-md-16 my-8">
+        <div  :style="{ backgroundImage: `url(${require('../assets/Testimonails_back.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content' }"  >
+            <v-container class="py-md-16 py-8">
                 <p class="white--text text-18 poppins-regular">TESTIMONAILS</p>
                 <v-row>
                     <v-col cols="12" lg="6" md="12" sm="12">
@@ -12,7 +12,7 @@
                     </v-col>
                     <v-col md="2" sm="12">
                         <div style="border-right: 2px solid white;">
-                            <h3 class="white--text">1,372+</h3>
+                            <h3 class="white--text">372+</h3>
                             <p class="white--text">Happy Coustomers</p>
                         </div>
 
@@ -28,7 +28,7 @@
                             <v-row>
                                 <v-col sm="4" md="4">
                                     <div style="position: relative;">
-                                        <v-img
+                                        <v-img loading="eager"
     :src="require('../assets/men3.jpeg')"
     height="100"
     width="100"
@@ -70,7 +70,7 @@
                             <v-row>
                                 <v-col sm="4" md="4">
                                     <div style="position: relative;">
-                                        <v-img
+                                        <v-img loading="eager"
     :src="require('../assets/men2.jpeg')"
     height="100"
     width="100"
@@ -109,7 +109,7 @@
                             <v-row>
                                 <v-col sm="4" md="4">
                                     <div style="position: relative;">
-                                        <v-img
+                                        <v-img loading="eager"
     :src="require('../assets/men1.jpeg')"
     height="100"
     width="100"
@@ -148,7 +148,7 @@
                 </v-row>
                   
             </v-container>
-        </v-img>
+        </div>
     </div>
 </template>
 
