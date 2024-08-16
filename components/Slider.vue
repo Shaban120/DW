@@ -5,7 +5,7 @@
       <h1 class="text-42 belgin-bold white--text text-center">Blogs</h1>
 
       <v-row>
-        <v-col cols="12" md="4">
+        <v-col cols="12" md="4" >
           <v-card class="mx-auto my-6" max-width="374">
             <v-img height="250" :src="require('../assets/officeSpaces.jpg')"></v-img>
             <v-card-title style="word-break: unset;">Enhance Your Business Space with Distinction Wrapping</v-card-title>
