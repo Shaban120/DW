@@ -13,7 +13,7 @@
                     <v-col md="2" sm="12">
                         <div style="border-right: 2px solid white;">
                             <h3 class="white--text">372+</h3>
-                            <p class="white--text">Happy Coustomers</p>
+                            <p class="white--text">Happy Customers</p>
                         </div>
 
                     </v-col>

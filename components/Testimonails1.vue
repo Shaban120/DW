@@ -12,7 +12,7 @@
                     <v-col md="2" sm="12">
                         <div style="border-right: 2px solid black;">
                             <h3 class="black--text">372+</h3>
-                            <p class="black--text">Happy Coustomers</p>
+                            <p class="black--text">Happy Customers</p>
                         </div>
 
                     </v-col>
