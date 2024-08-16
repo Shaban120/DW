@@ -19,14 +19,15 @@
                         <p class="white--text text-20 poppins-medium"><a class="white--text">Home</a></p>
                         </nuxt-link>
 
-                        <nuxt-link to="/blog">
-
-                        <p class="white--text text-20 poppins-medium"><a class="white--text">Blog</a></p>
-                        </nuxt-link>
+                        
 
                         <div class="border mt-8 mb-4"></div>
                         <nuxt-link to="/">
                             <v-list color="transparent" class="white--text pa-0 text-14 poppins-regular">Home</v-list>
+                        </nuxt-link>
+                        <nuxt-link to="/blog">
+                            <v-list color="transparent"
+                                class="white--text pa-0 text-14 poppins-regular">Blog</v-list>
                         </nuxt-link>
                         <nuxt-link to="/resources">
                             <v-list color="transparent"
