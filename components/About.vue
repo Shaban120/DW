@@ -37,7 +37,7 @@
                         <v-col cols="8" lg="8">
                             <h4 class="poppins-medium text-18 black--text">Professional and Courteous Team</h4>
                             <p class="poppins-regular text-14">Our skilled and friendly workers ensure a smooth and
-                                pleasant experience.</p>
+                                pleasant experiences.</p>
                         </v-col>
                     </v-row>
                 </v-col>
