@@ -21,7 +21,7 @@
       <v-row>
         <v-col v-for="item in dataArray" :key="item.id" md="4" cols="12">
           <v-card elevation="0">
-            <img width="100%" height="256px" :src="require(`../assets/services/${item.side_img}`)" />
+            <img width="100%" height="256px" alt="services" :src="require(`../assets/services/${item.side_img}`)" />
             <div class="pa-2">
               <h3 class="text-24 poppins-semibold text-capitalize">{{ item.category }}</h3>
               <p class="text-16 poppins-regular">{{ item.text }}</p>

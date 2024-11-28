@@ -5,7 +5,7 @@
       <v-container class="d-flex align-center">
       <v-toolbar-title>
         <nuxt-link to="/">
-          <a><img class="my-3 logo_img" width="170px" :src="require('../assets/DW Logo Black.svg')" /></a>
+          <a><img width="170" height="auto" alt="Logo" class="my-3 logo_img"  :src="require('../assets/DW Logo Black.svg')" /></a>
         </nuxt-link>
       </v-toolbar-title>
       <div class="mx-auto">
@@ -49,7 +49,7 @@
 
     <v-app-bar height="auto" class="mbl-navbar" color="#ffffff" dense>
       <v-toolbar-title class="mobile-title">
-        <nuxt-link to="/"><a><img class="pt-2" width="120px" :src="require('../assets/DW Logo Black.svg')" /></a></nuxt-link>
+        <nuxt-link to="/"><a><img class="pt-2" width="120" height="auto" alt="Logo"  :src="require('../assets/DW Logo Black.svg')" /></a></nuxt-link>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>

@@ -9,34 +9,34 @@
             </v-row>
             <v-row>
                 <v-col md="6" cols="12">
-                    <img width="100%" src="../assets/solution/Why us (5).png" />
+                    <img width="100%" height="100%" alt="whyUs" src="../assets/solution/Why us (5).png" />
                 </v-col>
                 <v-col md="6" cols="12">
-                    <img width="100%" src="../assets/solution/Why us (6).png" />
+                    <img width="100%" height="100%" alt="whyUs" src="../assets/solution/Why us (6).png" />
                 </v-col>
             </v-row>
         </v-container>
         <v-container class="my-md-16 my-8">
             <v-row>
                 <v-col md="3" cols="12" class="text-center">
-                    <img width="80px" src="../assets/solution/furniture.png" />
+                    <img width="80" height="80" alt="furniture" src="../assets/solution/furniture.png" />
                     <h2 class="poppins-medium text-18 mt-4 mb-2 ">Furniture Wrapping</h2>
                     <p class="poppins-regular text-14">Revitalise your existing furniture with our high-quality vinyl wraps in various finishes and textures.</p>
                 </v-col>
                 <v-col md="3" cols="12" class="text-center">
-                    <img width="80px" src="../assets/solution/wall.png" />
+                    <img width="80" height="80" alt="wall" src="../assets/solution/wall.png" />
                     <h2 class="poppins-medium text-18 mt-4 mb-2 ">Wall Wrapping</h2>
                     <p class="poppins-regular text-14">Transform your walls with our innovative and durable wall wraps to enhance any interior space.</p>
 
                 </v-col>
                 <v-col md="3" cols="12" class="text-center">
-                    <img width="80px" src="../assets/solution/kitchen.png" />
+                    <imgwidth="80" height="80" alt="kitchen" src="../assets/solution/kitchen.png" />
                     <h2 class="poppins-medium text-18 mt-4 mb-2">Kitchen Wrapping</h2>
                     <p class="poppins-regular text-14">Collaborate with our team to develop innovative and personalized
                         design concepts for your space.</p>
                 </v-col>
                 <v-col cols="12" md="3" class="text-center">
-                    <img width="80px" src="../assets/solution/commercial.png" />
+                    <img width="80" height="80" alt="commercial" src="../assets/solution/commercial.png" />
                     <h2 class="poppins-medium text-18 mt-4 mb-2">Commercial Spaces</h2>
                     <p class="poppins-regular text-14">From offices to retail stores, we provide wrapping solutions that enhance the business environment.</p>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="">    
-    <div class="home_mt" :style="{ backgroundImage: `url(${require('../assets/Section1_background.png')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content',marginTop:'99px' }">
+    <div class="home_mt" :style="{ backgroundImage: `url(${require('../assets/Section1_background.webp')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'fit-content',marginTop:'99px' }">
       <v-container class="py-8 py-md-16">
           <v-row>
             <v-col md="7" cols="12">

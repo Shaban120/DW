@@ -70,6 +70,7 @@ export default {
 };
 </script>
 <style>
+
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;

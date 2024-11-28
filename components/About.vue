@@ -31,7 +31,7 @@
                     <v-row>
                         <v-col cols="4" lg="4">
                             <div class="black_circle">
-                                <img src="../assets/support.png" />
+                                <img width="114" height="114" alt="support" src="../assets/support.png" />
                             </div>
                         </v-col>
                         <v-col cols="8" lg="8">
@@ -45,7 +45,7 @@
                     <v-row>
                         <v-col lg="4" cols="4">
                             <div class="black_circle">
-                                <img src="../assets/calculation.png" />
+                                <img width="114" height="114" alt="calculation" src="../assets/calculation.png" />
                             </div>
                         </v-col>
                         <v-col lg="8" cols="8">
@@ -59,7 +59,7 @@
                     <v-row>
                         <v-col lg="4" cols="4">
                             <div class="black_circle">
-                                <img src="../assets/save-forest.png" />
+                                <img width="114" height="114" alt="forest" src="../assets/save-forest.png" />
                             </div>
                         </v-col>
                         <v-col lg="8" cols="8">
@@ -74,7 +74,7 @@
                     <v-row>
                         <v-col cols="4" lg="4">
                             <div class="black_circle">
-                                <img src="../assets/calculation.png" />
+                                <img width="114" height="114" alt="calculation" src="../assets/calculation.png" />
                             </div>
                         </v-col>
                         <v-col cols="8" lg="8">
@@ -87,7 +87,7 @@
                     <v-row>
                         <v-col lg="4" cols="4">
                             <div class="black_circle">
-                                <img src="../assets/save-forest.png" />
+                                <img width="114" height="114" alt="forest" src="../assets/save-forest.png" />
                             </div>
                         </v-col>
                         <v-col lg="8" cols="8">
@@ -100,7 +100,7 @@
                     <v-row>
                         <v-col lg="4" cols="4">
                             <div class="black_circle">
-                                <img src="../assets/support.png" />
+                                <img width="114" height="114" alt="support" src="../assets/support.png" />
 
                             </div>
                         </v-col>

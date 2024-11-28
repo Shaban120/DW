@@ -7,7 +7,7 @@
                 <v-row class="mt-5">
                     <v-col md="4" cols="12">
                         <nuxt-link to="/">
-                            <img class="mb-md-2" width="170" :src="require('../assets/DW Logo White.svg')" />
+                            <img width="170" height="auto" alt="Logo" class="mb-md-2"  :src="require('../assets/DW Logo White.svg')" />
                         </nuxt-link>
                         <p class="white--text text-left text-14 poppins-regular">Discover how our innovative solutions
                             can transform your residential and commercial spaces today!

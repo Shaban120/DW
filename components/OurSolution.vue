@@ -27,7 +27,7 @@
                             Commercial Solutions</h4>
                         <p class="white--text poppins-medium text-16">Explore our commercial solutions</p>
                         <div class="white_circle">
-                            <img width="50%" src="../assets/solution/Arrows (8).png" />
+                            <img height="auto" width="50%" alt="Arrows" src="../assets/solution/Arrows (8).png" />
                         </div>
                     </nuxt-link>
                     </div>
@@ -36,14 +36,14 @@
                 <v-col md="6" cols="12">
                     <v-card>
                     <v-img loading="eager" :src="require('../assets/solution/solutions imgs (1).png')">
-                        <img class="sol_icon" width="100" src="../assets/solution/solutions Icons (2).png" />
+                        <img  class="sol_icon" width="100" height="auto" alt="icons" src="../assets/solution/solutions Icons (2).png" />
                     </v-img>
                     <div style="position: relative;" class="black px-10 py-3">
                         <nuxt-link to="/resources">
                         <h4 class="white--text poppins-semibold text-28">Residential Solutions</h4>
                         <p class="white--text poppins-medium text-16">Explore our residential solutions</p>
                         <div  class="white_circle">
-                            <img width="50%" src="../assets/solution/Arrows (8).png" />
+                            <img height="auto" alt="Arrows" width="50%" src="../assets/solution/Arrows (8).png" />
                         </div>
                     </nuxt-link>
                     </div>
